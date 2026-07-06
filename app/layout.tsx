@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MDF College of Education - Premier B.Ed College",
+  title: "MDF College of Education - B.Ed College",
   description: "Welcome to MDF College of Education. A leading teacher training institution recognized by NCTE, offering a 2-year Bachelor of Education (B.Ed.) program.",
   keywords: "MDF College of Education, B.Ed College, Teacher Training, Bachelor of Education, Education College, BEd Admissions, Shivamogga BEd college",
   authors: [{ name: "MDF College of Education" }],
