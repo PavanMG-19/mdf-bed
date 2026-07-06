@@ -135,8 +135,8 @@ export default function Faculty() {
             <p className="text-sm text-neutral-dark/80 dark:text-neutral-light/80 leading-relaxed italic">
               &ldquo;Providing our teacher-candidates with academic rigor, practical expertise, and high moral benchmarks is our continuous endeavor. I am proud to lead a highly skilled team of educators who deliver quality instruction.&rdquo;
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 border-t border-slate-100 dark:border-slate-800 pt-5 text-xs sm:text-sm text-neutral-dark/80 dark:text-neutral-light/80">
-              {/*<div className="flex gap-2.5 items-center">
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 border-t border-slate-100 dark:border-slate-800 pt-5 text-xs sm:text-sm text-neutral-dark/80 dark:text-neutral-light/80">
+              <div className="flex gap-2.5 items-center">
                 <GraduationCap size={18} className="text-secondary shrink-0" />
                 <span><strong>Qualification:</strong> {teachingStaff[0].qualification}</span>
               </div>
@@ -147,8 +147,8 @@ export default function Faculty() {
               <div className="flex gap-2.5 items-center sm:col-span-2">
                 <BookOpen size={18} className="text-secondary shrink-0" />
                 <span><strong>Specialization:</strong> {teachingStaff[0].specialization}</span>
-              </div>*/}
-            </div>
+              </div>
+            </div> */}
           </div>
         </div>
 
@@ -178,11 +178,11 @@ export default function Faculty() {
                 <div className="flex flex-col gap-1.5 flex-1">
                   <h4 className="font-bold text-base text-primary dark:text-white">{faculty.name}</h4>
                   <span className="text-xs text-secondary font-semibold">{faculty.designation}</span>
-                  {/*<div className="text-xs text-neutral-dark/70 dark:text-neutral-light/70 flex flex-col gap-1.5 border-t border-slate-50 dark:border-slate-800 pt-3 mt-2">
+                  {/* <div className="text-xs text-neutral-dark/70 dark:text-neutral-light/70 flex flex-col gap-1.5 border-t border-slate-50 dark:border-slate-800 pt-3 mt-2">
                     <p><strong>Qual:</strong> {faculty.qualification}</p>
                     <p><strong>Exp:</strong> {faculty.experience}</p>
                     <p><strong>Spec:</strong> {faculty.specialization}</p>
-                  </div>*/}
+                  </div> */}
                 </div>
               </div>
             ))}
