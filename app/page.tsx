@@ -28,7 +28,6 @@ export default function Home() {
   const notices = [
     { date: "June 10, 2026", title: "Admission Enquiry open for B.Ed. 2026-2028 batch.", active: true },
     { date: "June 02, 2026", title: "Dates for B.Ed. Second Semester Practicum Examinations announced.", active: false },
-    { date: "May 25, 2026", title: "National Level Seminar on 'Modern Pedagogies in Secondary Education' on June 18.", active: false },
   ];
 
   return (

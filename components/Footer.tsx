@@ -74,8 +74,8 @@ export default function Footer() {
               <h4 className="text-sm font-semibold text-slate-200">Eligibility Criteria</h4>
               <p className="text-xs text-slate-400 mt-1">50% Marks in Graduation or Post-Graduation. 5% relaxation for reserved categories.</p>
             </div>
-            <Link 
-              href="/academics" 
+            <Link
+              href="/academics"
               className="text-xs font-bold text-secondary-light hover:underline mt-1 inline-block"
             >
               Learn More about Admissions &rarr;
@@ -91,7 +91,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-3.5 text-sm text-slate-300">
             <li className="flex gap-2.5">
               <MapPin size={18} className="text-secondary shrink-0 mt-0.5" />
-              <span>MDF College Campus, Education Lane, Sagar Road, Shivamogga, Karnataka - 577201</span>
+              <span>Tarapur Campus, BH Road, Sagar, Shivamogga, Karnataka - 577401</span>
             </li>
             <li className="flex gap-2.5 items-center">
               <Phone size={16} className="text-secondary shrink-0" />
@@ -99,7 +99,7 @@ export default function Footer() {
             </li>
             <li className="flex gap-2.5 items-center">
               <Mail size={16} className="text-secondary shrink-0" />
-              <a href="mailto:info@mdfcollege.org" className="hover:text-secondary transition-colors">info@mdfcollege.org</a>
+              <a href="mailto:[EMAIL_ADDRESS]" className="hover:text-secondary transition-colors">[EMAIL_ADDRESS]</a>
             </li>
           </ul>
         </div>
